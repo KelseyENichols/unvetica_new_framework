@@ -1,4 +1,12 @@
 <?php
+
+	// UNVETICA (C) 2019
+	// Header Login File
+
+		// FUTURE : Checks for Session Login and if not serves the Login and Register Links
+		//          Currently Static as a placeholder
+
+
 	defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 

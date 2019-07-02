@@ -1,6 +1,7 @@
 <?php
 
-	// Simple header file that loads all required libaries and does inital page declaration
+	// UNVETICA (C) 2019
+	// Header Navigation File
 
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
