@@ -18,15 +18,23 @@ Things of Note:
 ===============
 
 Database Constructors are located in the SQL folder
+
 Database connection settings are located in application/config/config.php
+
 Routes for new controllers are entered in application/config/routes.php
+
+Please create your own branch and do not commit directly to Master to minimize conflicts / headaches
+
+Currently working on MAMP Server
 
 
 Database Settings:
 ==================
 
 username : unvetica
+
 password : !1unvetica9!
+
 db: unvetica_site
 
 
@@ -38,9 +46,13 @@ A git pull may not bring the .htaccess file, in the event that happens create a 
 ---- COPY HERE -----
 
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^(.*)$ index.php?/$1 [L]
+
 
 ---- END COPY ------
 
