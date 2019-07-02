@@ -13,6 +13,8 @@ JQueryUI 1.12
 
 Twitter Bootsrap 4.3.1
 
+Font-Awesome 5.9.0
+
 
 Things of Note:
 ===============
