@@ -1,0 +1,1 @@
+CREATE DATABASE `unvetica_site` /*!40100 DEFAULT CHARACTER SET utf8 */;

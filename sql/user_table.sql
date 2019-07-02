@@ -1,0 +1,18 @@
+CREATE TABLE `unvetica_site`.`user` (
+  `user_id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(50) NOT NULL,
+  `firstname` VARCHAR(45) NOT NULL,
+  `lastname` VARCHAR(45) NOT NULL,
+  `email_address` VARCHAR(99) NOT NULL,
+  `email_opt_in` INT NULL DEFAULT 1,
+  `email_verified` INT NULL DEFAULT 0,
+  `mobile_number` INT NULL,
+  `mobile_verified` INT NULL DEFAULT 0,
+  `txt_opt_in` INT NULL DEFAULT 0,
+  `profile_image` BLOB NULL,
+  `address1` VARCHAR(75) NULL,
+  `address2` VARCHAR(75) NULL,
+  `city` VARCHAR(35) NULL,
+  `state` VARCHAR(2) NULL,
+  `zip` VARCHAR(9) NULL,
+  PRIMARY KEY (`user_id`));
