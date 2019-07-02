@@ -10,8 +10,43 @@
 	defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
+
+	<!-- BEGIN IF/ELSE LOGIN TO DETECT IF SOMEONE IS ALREADY LOGGED IN -->
+
+
+<br/>
+
+<?php
+
+	if(isset($_SESSION['loggedIn'])){
+		
+		if($_SESSION['loggedIn'] == '1'){
+
+			// display the username
+
+		?>
+		
+		<div>
+			<table wditdh="100%">
+				<tr>
+					<td>
+						
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<?php 	
+
+		}
+	}
+
+	else {
+
+?>
+
+
 			<div>
-				<br/>
 				<table width="100%">
 					<tr>
 						<td width="90%">
@@ -33,3 +68,11 @@
 					</tr>
 				</table>
 			</div>
+
+<?php
+	}
+?>
+
+<div>
+	<br/>
+</div>
