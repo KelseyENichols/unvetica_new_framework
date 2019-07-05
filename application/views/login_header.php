@@ -27,7 +27,7 @@
 		?>
 		
 		<div>
-			<table wditdh="100%">
+			<table witdh="100%">
 				<tr>
 					<td>
 
@@ -46,14 +46,53 @@
 ?>
 
 	<div id="loginModalBox" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 30; background-color: #CCCCCC; height:100%; width:100%; opacity: 0.8;">
-	Test 
 
 	</div>
 
-	<div id = "loginForm" style="display: none; position: absolute; z-index: 33; width:360px; height:270px; left: 36%; top: 20%; background-color: #FFFFFF; opacity: 1.0;">
-		<form>
-			<table width=90%" height="90%" align="center">
+	<div id ="registerForm" style="display: none; position: absolute; z-index: 33; width:360px; height:600px; left: 36%; top: 20%; background-color: #FFFFFF; opacity: 1.0;">
+		<form id="unveticaRegisterForm" method="POST" action="#">
 
+			<table width=90%" height="90%" align="center">
+				<tr>
+					<td colspan="3" height="20">
+						<br/>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" height="40">
+						<span style="font-size:18px; font-weight: bold;">
+							Register with Unvetica
+						</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" height="470">
+						This is Placeholder text
+					</td>
+				<tr>
+					<td colspan="3">
+						<table width="100%" align="center">
+							<tr>
+								<td width="50%"" align="center">
+									<input id="registerSubmit" type="button" value="Register">
+								</td>
+								<td width="50%" align="center">
+									<input id="registerCancel" type="button" value="Cancel">
+								</td>
+						</table>
+					</td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+	<div id = "loginForm" style="display: none; position: absolute; z-index: 33; width:360px; height:270px; left: 36%; top: 20%; background-color: #FFFFFF; opacity: 1.0;">
+		<form id="unveticaLoginForm" method="POST" action="#">
+
+			<table width=90%" height="90%" align="center">
 				<tr>
 					<td colspan="3" height="20">
 						<br/>
@@ -79,7 +118,7 @@
 							password cannot be blank
 						</div>
 						<div id="invalidLogin" style="display:none; color: red; font-size:11px;">
-							username/password is invalid
+							username or password is invalid
 						</div>
 					</td>
 				</tr>
@@ -146,8 +185,6 @@
 		</form>
 	</div>	
 
-
-
 			<div>
 				<table width="100%">
 					<tr>
@@ -196,7 +233,10 @@
 		});
 
 		$('#unveticaRegister').click(function(){
-			alert('Register link clicked')
+
+			$('#loginModalBox').show();
+			$('#registerForm').show();
+
 		});
 
 
@@ -239,6 +279,20 @@
 			$('#loginModalBox').hide();
 			
 			return false;
+		});
+
+		$('#registerCancel').click(function(){
+
+			$('#registerForm').hide();
+			$('#loginModalBox').hide();			
+
+		});
+
+		$('#registerSubmit').click(function(){
+
+			$('#registerForm').hide();
+			$('#loginModalBox').hide();			
+
 		});
 
 
