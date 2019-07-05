@@ -30,7 +30,7 @@
 			<table wditdh="100%">
 				<tr>
 					<td>
-						
+
 					</td>
 				</tr>
 			</table>
@@ -52,18 +52,18 @@
 						<td width="90%">
 						</td>
 						<td width="5%">
-							<span style="font-size:11px;">
-								<a href -= "#">
+							<div id = "unveticaLogin" style="font-size:11px;">
+								<a href = "#">
 									Sign In
 								</a>
-							</span>
+							</div>
 						</td>
 						<td width="5%">
-							<span style="font-size:11px;">
+							<div id = "unveticaRegister" style="font-size:11px;">
 								<a href = "#">
 									Register
 								</a>
-							</span>
+							</div>
 						</td>
 					</tr>
 				</table>
@@ -76,3 +76,42 @@
 <div>
 	<br/>
 </div>
+
+<div id="loginModalBox" style="display: none;">
+	Test 
+</div>
+
+
+
+
+<script>
+
+	$( document ).ready(function(){
+
+		$('#unveticaLogin').click(function(){
+
+			//$('#loginModalBox').show();
+
+			alert('show login box now');
+
+			
+			//$('#loginModalBox').hide();			
+
+
+		});
+
+
+		$('#unveticaRegister').click(function(){
+			alert('Register link clicked')
+		});
+
+
+	});
+
+
+
+</script>
+
+
+
+
