@@ -19,6 +19,8 @@ Font-Awesome 5.9.0
 Things of Note:
 ===============
 
+*DO NOT* modify any DIV ID's unless pre-approved by Spencer or Michael
+
 Database Constructors are located in the SQL folder
 
 Database connection settings are located in application/config/config.php
@@ -28,6 +30,7 @@ Routes for new controllers are entered in application/config/routes.php
 Please create your own branch and do not commit directly to Master to minimize conflicts / headaches
 
 Currently working on MAMP Server
+
 
 
 Database Settings:
