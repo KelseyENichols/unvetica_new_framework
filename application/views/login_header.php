@@ -49,28 +49,123 @@
 
 	</div>
 
-	<div id ="registerForm" style="display: none; position: absolute; z-index: 33; width:360px; height:600px; left: 36%; top: 20%; background-color: #FFFFFF; opacity: 1.0;">
+	<div id ="registerForm" style="display: none; position: absolute; z-index: 33; width:440px; height:600px; left: 36%; top: 10%; background-color: #FFFFFF; opacity: 1.0;">
 		<form id="unveticaRegisterForm" method="POST" action="#">
 
 			<table width=90%" height="90%" align="center">
 				<tr>
-					<td colspan="3" height="20">
-						<br/>
+					<td colspan="3" height="30">
 					</td>
 				</tr>
-
 				<tr>
-					<td colspan="3" height="40">
+					<td colspan="3" height="10">
 						<span style="font-size:18px; font-weight: bold;">
 							Register with Unvetica
 						</span>
 					</td>
 				</tr>
-
 				<tr>
-					<td colspan="3" height="470">
-						This is Placeholder text
+					<td colspan="3" height="50">
 					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Email
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="text" id="registerEmail" size="30">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Username
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="text" id="registerUsername" size="30">
+					</td>
+				<tr>
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Password
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="password" id="registerPassword1" size="30">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						*Password*
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="password" id="registerPassword2" size="30">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Fist Name
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="text" id="registerFistname" size="30">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Last Name
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="text" id="registerFistname" size="30">
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="3" height="20">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">
+						Phone Number
+					</td>
+					<td colspan="1">
+					</td>
+					<td colspan="1">	
+						<input type="text" id="registerPhone" size="30">
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="3" height="40">
+					</td>
+				</tr>			
 				<tr>
 					<td colspan="3">
 						<table width="100%" align="center">
